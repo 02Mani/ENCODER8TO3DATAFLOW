@@ -48,20 +48,18 @@ Developed by:MANIKANDAN M RegisterNumber:212224040183
 module exp5(din,a,b,c);
 input [0:7] din;
 output a,b,c;
-assign a=(din[4]|din[5]|din[6]|din[7]);
-assign b=(din[2]|din[3]|din[6]|din[7]);
-assign c=(din[1]|din[3]|din[5]|din[7]);
-endmodulemodule exp5(din,a,b,c);
+assign a=(din[4]| din[5]| din[6]| din[7]);
+assign b=(din[2]| din[3]| din[6]| din[7]);
+assign c=(din[1]| din[3]| din[5]| din[7]);
+endmodule
 ~~~
 
 **RTL LOGIC FOR Encoder 8 To 3 in Dataflow Modelling**
-![exp5](https://github.com/user-attachments/assets/2847479d-cb4a-45fa-ab9e-283bcd2d47ad)
-
-
+**<img width="878" height="802" alt="image" src="https://github.com/user-attachments/assets/d3182944-8706-4352-8243-94dac78f4eca" />
+*
 **TIMING DIGRAMS FOR Encoder 8 To 3 in Dataflow Modelling**
+<img width="1450" height="883" alt="image" src="https://github.com/user-attachments/assets/1d4eeee4-e19a-4e13-8912-300514993fb7" />
 
-
-![Screenshot (101)](https://github.com/user-attachments/assets/8ca0e1a4-9e6a-4798-9e2c-d6be3362674f)
 
 **RESULTS**
 The Encoder 8 To 3 in Dataflow Modelling using verilog and validating their functionality using their functional tables are verified by using Verilog programming.
